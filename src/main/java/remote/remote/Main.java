@@ -44,8 +44,8 @@ public class Main {
 		new Main();
 	}
 	
-	int w = 1366;
-	int h = 768;
+	int w = Toolkit.getDefaultToolkit().getScreenSize().getWidth();
+	int h = Toolkit.getDefaultToolkit().getScreenSize().getHeight();
 	boolean looping = true;
 	Robot robot;
 	BufferedReader in;
